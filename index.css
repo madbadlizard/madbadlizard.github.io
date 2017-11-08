@@ -1,0 +1,111 @@
+h1{
+  font-size: 50px;
+  padding:10px 0; 
+}
+
+p{
+  font-family: Montserrat, sans-serif;
+}
+
+.page-container{
+  width: 90%;
+  margin: auto;
+}
+
+.topnav{
+  overflow: hidden;
+  background-color: #FFF;
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 1;
+}
+
+.homenav{
+  background-color: #fff;  
+}
+
+.topnav a{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.topnav a:hover{
+  background-color: #ddd;  
+}
+
+.topnav a.active{
+  background-color: orange;
+  color: white;
+}
+
+.topnav.icon{
+  display: none;
+}
+
+#banner{
+  background-image: url(http://68.media.tumblr.com/11fde6f30ad7979986d9ce1a5e409e13/tumblr_omk477ZB1V1s7hot7o1_1280.jpg);
+  background-size: cover;
+  padding: 140px 0;
+  color: white;
+  text-align: right;
+  margin-top:150px;
+}
+
+ul{
+  list-style-type: none;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width:100%;
+  
+}
+
+#about{
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.container{
+  margin: 0;
+  padding:0;
+}
+
+#works{
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.img-responsive{
+    width: 120%;
+}
+
+#contact{
+  background-color: #EAEAEA;
+  font-size: 15px;
+  padding: 20px 0;
+ 
+}
+
+#footer{
+  font-size: 15px;
+  background-color: #EAEAEA;
+}
+
+ul{
+  overflow: auto;
+}
+
+ul li{
+  float: left;
+}
+
+ul li a i{
+  width: 15px;
+  height: 15px;
+}
